@@ -9,6 +9,7 @@ def driver(request):
     request.addfinalizer(wd.quit)
     return wd
 
+#login example
 def test_example(driver):
     driver.get("http://localhost:8080/litecart/admin/login.php")
     driver.find_element_by_name("username").send_keys("admin")

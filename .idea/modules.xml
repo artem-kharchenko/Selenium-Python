@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Selemium-Python.iml" filepath="$PROJECT_DIR$/Selemium-Python.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Selenium-Python.iml" filepath="$PROJECT_DIR$/Selenium-Python.iml" />
     </modules>
   </component>
 </project>
