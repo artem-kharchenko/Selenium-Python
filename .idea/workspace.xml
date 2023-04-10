@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40309750-9b61-41ee-8af7-68b2ad2c52a6" name="Changes" comment="updated l3_example login">
+    <list default="true" id="40309750-9b61-41ee-8af7-68b2ad2c52a6" name="Changes" comment="add l4 ex4 feature and fix">
+      <change afterPath="$PROJECT_DIR$/test_l4_ex7_find_sticker.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_l3_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_l3_login.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +23,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="9ae100dc-bc79-48bd-bec6-284303c5d2e6" />
+        <option name="url" value="https://github.com/artem-kharchenko/Selenium-Python" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -36,14 +49,14 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/artem/IdeaProjects/Selemium-Python/.pytest_cache",
+    "last_opened_file_path": "C:/Users/artem/IdeaProjects/Selemium-Python",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\artem\IdeaProjects\Selemium-Python\.pytest_cache" />
       <recent name="C:\Users\artem\IdeaProjects\Selemium-Python" />
+      <recent name="C:\Users\artem\IdeaProjects\Selemium-Python\.pytest_cache" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\artem\IdeaProjects\Selemium-Python" />
@@ -72,7 +85,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681060760690</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add l4 ex4 feature">
+      <created>1681151228990</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681151228990</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add l4 ex4 feature and fix">
+      <created>1681151474429</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681151474429</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,6 +116,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit changes l3_example login" />
     <MESSAGE value="updated l3_example login" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated l3_example login" />
+    <MESSAGE value="add l4 ex4 feature" />
+    <MESSAGE value="add l4 ex4 feature and fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="add l4 ex4 feature and fix" />
   </component>
 </project>
