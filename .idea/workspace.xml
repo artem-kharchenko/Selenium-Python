@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40309750-9b61-41ee-8af7-68b2ad2c52a6" name="Changes" comment="add l4 ex4 feature and fix">
-      <change afterPath="$PROJECT_DIR$/test_l4_ex7_find_sticker.py" afterDir="false" />
+    <list default="true" id="40309750-9b61-41ee-8af7-68b2ad2c52a6" name="Changes" comment="add test_l4_ex4_find_example_fixed.py">
+      <change afterPath="$PROJECT_DIR$/test_l4_ex4_find_example_fixed.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,11 +23,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -45,14 +45,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/artem/IdeaProjects/Selemium-Python",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/artem/IdeaProjects/Selemium-Python&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\artem\IdeaProjects\Selemium-Python" />
@@ -61,6 +61,63 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\artem\IdeaProjects\Selemium-Python" />
     </key>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest for test_l4_ex4_find_example_fixed.test_example">
+    <configuration name="pytest for test_l4_ex4_find_example_fixed.test_example" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Selenium-Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_l4_ex4_find_example_fixed.test_example&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_l4_ex4_find_example_fixed.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Selenium-Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_l4_ex4_find_example_fixed.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_l4_ex7_find_sticker.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Selenium-Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_l4_ex7_find_sticker.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for test_l4_ex4_find_example_fixed.test_example" />
+        <item itemvalue="Python tests.pytest in test_l4_ex4_find_example_fixed.py" />
+        <item itemvalue="Python tests.pytest in test_l4_ex7_find_sticker.py" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -99,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681151474429</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add test_l4_ex7_find_sticker.py and fix">
+      <created>1681152813698</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681152813698</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +182,8 @@
     <MESSAGE value="updated l3_example login" />
     <MESSAGE value="add l4 ex4 feature" />
     <MESSAGE value="add l4 ex4 feature and fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="add l4 ex4 feature and fix" />
+    <MESSAGE value="add test_l4_ex7_find_sticker.py and fix" />
+    <MESSAGE value="add test_l4_ex4_find_example_fixed.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test_l4_ex4_find_example_fixed.py" />
   </component>
 </project>
