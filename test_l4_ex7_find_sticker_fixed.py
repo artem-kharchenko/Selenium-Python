@@ -19,4 +19,4 @@ def test_l4_ex7(driver):
     while i<count:
         sticker = len(items[i].find_elements(By.CSS_SELECTOR, ".sticker"))
         assert sticker == 1
-        break
+        i += 1
