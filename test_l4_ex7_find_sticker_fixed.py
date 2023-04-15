@@ -1,5 +1,6 @@
 import pytest
 from selenium import webdriver
+from selenium.webdriver.common.by import By
 
 @pytest.fixture
 def driver(request):
@@ -10,29 +11,12 @@ def driver(request):
 
 def test_l4_ex7(driver):
     driver.get("http://localhost:8080/litecart/en/")
-    box_most_popular = driver.find_element_by_xpath("//div[@id='box-most-popular']")
-    items = box_most_popular.find_elements_by_tag_name("li")
-    for item in items:
+    count = len(driver.find_elements(By.CSS_SELECTOR, ".product"))
+    print(count)
+    items = driver.find_elements(By.CSS_SELECTOR, ".product")
 
-        if driver.find_element_by_xpath("//div[@id='box-most-popular']//div[contains(@class, 'sticker')]"):
-            print("Sticker exists")
-        else:
-            print("No stickers found")
-
-    box_campaigns = driver.find_element_by_xpath("//div[@id='box-campaigns']")
-    iboxes = box_campaigns.find_elements_by_tag_name("li")
-    for ibox in iboxes:
-
-        if driver.find_element_by_xpath("//div[@id='box-campaigns']//div[contains(@class, 'sticker')]"):
-            print("Sticker exists")
-        else:
-            print("No stickers found")
-
-    box_latest_products = driver.find_element_by_xpath("//div[@id='box-latest-products']")
-    inames = box_latest_products.find_elements_by_tag_name("li")
-    for iname in inames:
-
-        if driver.find_element_by_xpath("//div[@id='box-latest-products']//div[contains(@class, 'sticker')]"):
-            print("Sticker exists")
-        else:
-            print("No stickers found")
+    i=0
+    while i<count:
+        sticker = len(items[i].find_elements(By.CSS_SELECTOR, ".sticker"))
+        assert sticker == 1
+        break
