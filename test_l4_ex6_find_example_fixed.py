@@ -34,39 +34,3 @@ def test_l4_ex6(driver):
                 sub_items = driver.find_elements(By.XPATH, "//li[contains(@id, 'doc-')]")
                 sub_items[j].click()
                 WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "//h1")))
-
-
-
-
-
-
-
-
-"""
-    driver.find_element_by_xpath("//span[normalize-space()='Appearence']").click()
-    main_catalog_list = driver.find_element_by_id("box-apps-menu")
-    items = main_catalog_list.find_elements_by_tag_name("li")
-    print(f"items: {items}")
-    for item in items:
-        item.click()
-
-        while is_element_present(driver, By.TAG_NAME, "ul"):
-            second_catalog_list = driver.find_element_by_tag_name("ul")
-            nums = second_catalog_list.find_elements_by_tag_name("li")
-            print(f"nums: {nums}")
-            for num in nums:
-                num.click()
-"""
-
-"""
-driver.get("http://localhost:8080/litecart/en/")
-    count = len(driver.find_elements(By.CSS_SELECTOR, "#app-"))
-    print(count)
-    items = driver.find_elements(By.CSS_SELECTOR, ".product")
-
-    i=0
-    while i<count:
-        sticker = len(items[i].find_elements(By.CSS_SELECTOR, ".sticker"))
-        assert sticker == 1
-        i += 1                
-"""
